@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Not found </title>
+    {{>headerlinks}}
+    <style>
+        body {
+            background: linear-gradient(67deg, #70dfff, #9d60ff);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .err-box {
+            color: #555555;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: white;
+            padding: 30px;
+            width: 80vw;
+            text-align: center;
+        }
+
+        .err-box img {
+            width: 450px;
+        }
+
+        h3 {
+            margin: 10px 0;
+        }
+
+        #returnHome {
+            color: white;
+            background: #4888c4;
+            padding: 8px 15px;
+            border-radius: 40px;
+            box-shadow: none;
+            text-transform: none;
+            margin-top: 20px;
+        }
+        #returnHome:hover{
+            background: rgb(0, 107, 179);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="err-box">
+        <img src="images/crop404.jpg">
+        <h2>OOPS! PAGE NOT FOUND.</h2>
+        <h3>Sorry, the page you are looking for doesn't exist. If you think
+            something is broken, report a problem. </h3>
+        <a href="/"> <button class="btn" id="returnHome"> Return Home </button> </a>
+    </div>
+</body>
+
+</html>

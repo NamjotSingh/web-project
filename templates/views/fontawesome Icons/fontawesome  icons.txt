@@ -1,0 +1,24 @@
+ <i class="fa-solid fa-circle-play"></i>
+<i class="fa-regular fa-circle-play"></i>
+<i class="fa-light fa-circle-play"></i>
+
+<i class="fa-solid fa-volume"></i>
+
+<i class="fa-solid fa-backward"></i>
+<i class="fa-solid fa-forward"></i>
+
+<i class="fa-solid fa-pause"></i>
+<i class="fa-duotone fa-stop"></i>
+<i class="fa-solid fa-circle-stop"></i>
+
+<i class="fa-sharp fa-solid fa-repeat"></i> 
+
+download	<i class="fa-solid fa-download"></i>
+microphone	<i class="fa-solid fa-microphone"></i>
+notification bell	<i class="fa-solid fa-bell"></i>
+own account	<i class="fa-solid fa-user"></i>
+video record	<i class="fa-solid fa-video"></i>
+search 	<i class="fa-solid fa-magnifying-glass"></i>
+three lines <i class="fa-solid fa-bars"></i>
+
+home	<i class="fa-solid fa-house"></i>
