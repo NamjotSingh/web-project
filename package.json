@@ -6,9 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-    "dev2": "nodemon index.hbs",
-    "dev3": "nodemon about.hbs",
-    "dev4": "nodemon navbar.hbs"
+    "start":"node index.js"
   },
   "keywords": [
     "npm"
