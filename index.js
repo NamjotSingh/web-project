@@ -1,9 +1,9 @@
 // Acquire modules
-const express = require('express');
 const path = require('path');
+const express = require('express');
 const app = express();
 const hbs = require('hbs');
-const port=process.env.PORT || 8000;
+const port = process.env.PORT || 8000;
 
 //  built-in middleware
 const staticPath = path.join(__dirname, 'templates/views');
@@ -17,7 +17,7 @@ hbs.registerPartials(partialsPath);
 app.use(express.static(staticPath));  // access static files like HTML,CSS & JS   
 
 
-// hbs (template engine) route
+// Routing using hbs
 app.get('/', (req, res) => {
     res.render('index')
 })

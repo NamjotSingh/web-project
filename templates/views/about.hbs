@@ -11,16 +11,16 @@
       grid-template-columns: 1fr 2fr;
     }
 
-    .aboutme h3 {
-      font-weight: 100;
+    .aboutme p {
+      font-size: 24px;
       margin: 30px 0;
     }
 
     #myphoto {
+      /* box-shadow vs filter */
+      filter: drop-shadow(3px 4px 4px rgb(4, 104, 255));
       margin-left: 40px;
       border-radius: 100%;
-      filter: drop-shadow(3px 4px 4px rgb(4, 104, 255));
-      /* box-shadow vs filter */
     }
   </style>
 
@@ -31,13 +31,14 @@
   {{>navbar}}
 
   <!-- Main Content -->
+
   <div class="main">
 
-    <div><img id="myphoto" src="images/myphoto.jpg"></div>
+    <div>   <img id="myphoto" src="images/myphoto.jpg">   </div>
 
     <div class="aboutme">
       <h2 style="text-decoration: underline;">About Me</h2>
-      <h3>I am 18 years old and want to build a life in Canada as an International student.</h3>
+      <p>I am 18 years old and want to build a life in Canada as an International student.</p>
       <a href="https://www.youtube.com/@namjotsingh/featured" target="_">
         <button class="btn">About Me</button>
       </a>

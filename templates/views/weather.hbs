@@ -18,9 +18,9 @@
         #search {
             width: 40vw;
             font-size: 22px;
+            text-transform: capitalize;
             border: none;
             outline: none;
-            text-transform: capitalize;
             border-radius: 6px;
             padding: 7px 15px;
         }
@@ -30,10 +30,10 @@
             width: 40vw;
             height: 250px;
             font-size: 28px;
-            margin-top: 40px;
             border-radius: 15px;
             padding: 20px 30px;
             text-align: center;
+            margin-top: 40px;
         }
 
         .first {
@@ -59,34 +59,37 @@
             background: rgb(61, 61, 61);
             padding: 10px 20px;
             border-radius: 100%;
-
         }
     </style>
 </head>
 
 <body>
-
     {{>navbar}}
 
     <!-- Main Content -->
+
     <div class="main">
-        <div>
-            <form>
-                <input type="search" name="" id="search" placeholder="enter your city name here..." autofocus>
-            </form>
-        </div>
+
+        <form>
+            <input type="search" name="" id="search" placeholder="enter your city name here..." autofocus>
+        </form>
+
         <div class="weather-info">
+
             <div class="first">
                 <p class="day"> </p>
                 <p class="date"></p>
             </div>
-            <div class="location"></div>
+
+            <div class="location">Waiting for input...</div>
+            
             <div class="third">
                 <p class="temp"></p>
                 <p class="weather-icon"></p>
             </div>
         </div>
     </div>
+    
     {{>footer}}
 
 </body>
